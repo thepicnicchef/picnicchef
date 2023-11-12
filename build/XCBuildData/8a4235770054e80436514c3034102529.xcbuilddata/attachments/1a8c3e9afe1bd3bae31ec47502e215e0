@@ -1,0 +1,6 @@
+framework module Pods_picnicchef {
+  umbrella header "Pods-picnicchef-umbrella.h"
+
+  export *
+  module * { export * }
+}

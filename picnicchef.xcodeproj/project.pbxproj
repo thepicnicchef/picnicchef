@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22500BEE2AE7AE0400CE7F9E /* picnicchefApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500BED2AE7AE0400CE7F9E /* picnicchefApp.swift */; };
+		22500BF02AE7AE0400CE7F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500BEF2AE7AE0400CE7F9E /* ContentView.swift */; };
+		22500BF22AE7AE0500CE7F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22500BF12AE7AE0500CE7F9E /* Assets.xcassets */; };
+		22500BF52AE7AE0500CE7F9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22500BF42AE7AE0500CE7F9E /* Preview Assets.xcassets */; };
+		22500BF72AE7AE0500CE7F9E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500BF62AE7AE0500CE7F9E /* Persistence.swift */; };
+		22500BFA2AE7AE0500CE7F9E /* picnicchef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22500BF82AE7AE0500CE7F9E /* picnicchef.xcdatamodeld */; };
+		22500C062AE7AE0600CE7F9E /* picnicchefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500C052AE7AE0600CE7F9E /* picnicchefTests.swift */; };
+		22500C102AE7AE0600CE7F9E /* picnicchefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500C0F2AE7AE0600CE7F9E /* picnicchefUITests.swift */; };
+		22500C122AE7AE0600CE7F9E /* picnicchefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22500C112AE7AE0600CE7F9E /* picnicchefUITestsLaunchTests.swift */; };
+		227C7E6A2AFB8EF900CC78E7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C7E692AFB8EF900CC78E7 /* GameKit.framework */; };
+		227C7E752AFB92EF00CC78E7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C7E742AFB92EF00CC78E7 /* GameKit.framework */; };
+		227C7E762AFB930000CC78E7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C7E742AFB92EF00CC78E7 /* GameKit.framework */; };
+		22884FE52AF7687100545ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22884FE42AF7687100545ACD /* AppDelegate.swift */; };
+		22EAA7D82B11D61482425B82 /* Pods_picnicchef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF15B02859909258A2DF88 /* Pods_picnicchef.framework */; };
+		BBD7B96E9FEA2BE76CC6BF5A /* Pods_picnicchefUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8EBD3CCB3EB5A7CB9ACAC4 /* Pods_picnicchefUITests.framework */; };
+		CFB7AC916CE34E43CE318E8C /* Pods_picnicchefTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962799F3C341711AC1A9F5E2 /* Pods_picnicchefTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22500C022AE7AE0600CE7F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22500BE22AE7AE0400CE7F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22500BE92AE7AE0400CE7F9E;
+			remoteInfo = picnicchef;
+		};
+		22500C0C2AE7AE0600CE7F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22500BE22AE7AE0400CE7F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22500BE92AE7AE0400CE7F9E;
+			remoteInfo = picnicchef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8EBD3CCB3EB5A7CB9ACAC4 /* Pods_picnicchefUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_picnicchefUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22500BEA2AE7AE0400CE7F9E /* picnicchef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picnicchef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22500BED2AE7AE0400CE7F9E /* picnicchefApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picnicchefApp.swift; sourceTree = "<group>"; };
+		22500BEF2AE7AE0400CE7F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22500BF12AE7AE0500CE7F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22500BF42AE7AE0500CE7F9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22500BF62AE7AE0500CE7F9E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		22500BF92AE7AE0500CE7F9E /* picnicchef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = picnicchef.xcdatamodel; sourceTree = "<group>"; };
+		22500BFB2AE7AE0500CE7F9E /* picnicchef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = picnicchef.entitlements; sourceTree = "<group>"; };
+		22500BFC2AE7AE0500CE7F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22500C012AE7AE0600CE7F9E /* picnicchefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picnicchefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22500C052AE7AE0600CE7F9E /* picnicchefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picnicchefTests.swift; sourceTree = "<group>"; };
+		22500C0B2AE7AE0600CE7F9E /* picnicchefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picnicchefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22500C0F2AE7AE0600CE7F9E /* picnicchefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picnicchefUITests.swift; sourceTree = "<group>"; };
+		22500C112AE7AE0600CE7F9E /* picnicchefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picnicchefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		227C7E692AFB8EF900CC78E7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		227C7E742AFB92EF00CC78E7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/iOSSupport/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		22884FE42AF7687100545ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		366783025CF3A2C958C59F03 /* Pods-picnicchef-picnicchefUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchef-picnicchefUITests.debug.xcconfig"; path = "Target Support Files/Pods-picnicchef-picnicchefUITests/Pods-picnicchef-picnicchefUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9EB60EE23734566E43F3CF /* Pods-picnicchef-picnicchefUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchef-picnicchefUITests.release.xcconfig"; path = "Target Support Files/Pods-picnicchef-picnicchefUITests/Pods-picnicchef-picnicchefUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44199D6BB9A60DCD20851417 /* Pods-picnicchefUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchefUITests.release.xcconfig"; path = "Target Support Files/Pods-picnicchefUITests/Pods-picnicchefUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FEBAC32337A185226CC72BE /* Pods-picnicchef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchef.release.xcconfig"; path = "Target Support Files/Pods-picnicchef/Pods-picnicchef.release.xcconfig"; sourceTree = "<group>"; };
+		51D786B5419A65DD42CB42A5 /* Pods-picnicchefUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchefUITests.debug.xcconfig"; path = "Target Support Files/Pods-picnicchefUITests/Pods-picnicchefUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52FF15B02859909258A2DF88 /* Pods_picnicchef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_picnicchef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAC696245360E178A6365E4 /* Pods-picnicchefTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchefTests.release.xcconfig"; path = "Target Support Files/Pods-picnicchefTests/Pods-picnicchefTests.release.xcconfig"; sourceTree = "<group>"; };
+		962799F3C341711AC1A9F5E2 /* Pods_picnicchefTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_picnicchefTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F69297FBC2F9115ECBE480 /* Pods-picnicchef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchef.debug.xcconfig"; path = "Target Support Files/Pods-picnicchef/Pods-picnicchef.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6A220014B90E6F8BA0BF98 /* Pods-picnicchefTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picnicchefTests.debug.xcconfig"; path = "Target Support Files/Pods-picnicchefTests/Pods-picnicchefTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22500BE72AE7AE0400CE7F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EAA7D82B11D61482425B82 /* Pods_picnicchef.framework in Frameworks */,
+				227C7E6A2AFB8EF900CC78E7 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22500BFE2AE7AE0600CE7F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB7AC916CE34E43CE318E8C /* Pods_picnicchefTests.framework in Frameworks */,
+				227C7E752AFB92EF00CC78E7 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22500C082AE7AE0600CE7F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD7B96E9FEA2BE76CC6BF5A /* Pods_picnicchefUITests.framework in Frameworks */,
+				227C7E762AFB930000CC78E7 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22500BE12AE7AE0400CE7F9E = {
+			isa = PBXGroup;
+			children = (
+				22500BEC2AE7AE0400CE7F9E /* picnicchef */,
+				22500C042AE7AE0600CE7F9E /* picnicchefTests */,
+				22500C0E2AE7AE0600CE7F9E /* picnicchefUITests */,
+				22500BEB2AE7AE0400CE7F9E /* Products */,
+				A55FF1D1766871C63215A82D /* Pods */,
+				745D96378D461B50879A7322 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22500BEB2AE7AE0400CE7F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22500BEA2AE7AE0400CE7F9E /* picnicchef.app */,
+				22500C012AE7AE0600CE7F9E /* picnicchefTests.xctest */,
+				22500C0B2AE7AE0600CE7F9E /* picnicchefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22500BEC2AE7AE0400CE7F9E /* picnicchef */ = {
+			isa = PBXGroup;
+			children = (
+				22500BED2AE7AE0400CE7F9E /* picnicchefApp.swift */,
+				22500BEF2AE7AE0400CE7F9E /* ContentView.swift */,
+				22500BF12AE7AE0500CE7F9E /* Assets.xcassets */,
+				22500BF62AE7AE0500CE7F9E /* Persistence.swift */,
+				22500BFB2AE7AE0500CE7F9E /* picnicchef.entitlements */,
+				22500BFC2AE7AE0500CE7F9E /* Info.plist */,
+				22500BF82AE7AE0500CE7F9E /* picnicchef.xcdatamodeld */,
+				22500BF32AE7AE0500CE7F9E /* Preview Content */,
+				22884FE42AF7687100545ACD /* AppDelegate.swift */,
+			);
+			path = picnicchef;
+			sourceTree = "<group>";
+		};
+		22500BF32AE7AE0500CE7F9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22500BF42AE7AE0500CE7F9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22500C042AE7AE0600CE7F9E /* picnicchefTests */ = {
+			isa = PBXGroup;
+			children = (
+				22500C052AE7AE0600CE7F9E /* picnicchefTests.swift */,
+			);
+			path = picnicchefTests;
+			sourceTree = "<group>";
+		};
+		22500C0E2AE7AE0600CE7F9E /* picnicchefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22500C0F2AE7AE0600CE7F9E /* picnicchefUITests.swift */,
+				22500C112AE7AE0600CE7F9E /* picnicchefUITestsLaunchTests.swift */,
+			);
+			path = picnicchefUITests;
+			sourceTree = "<group>";
+		};
+		745D96378D461B50879A7322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227C7E692AFB8EF900CC78E7 /* GameKit.framework */,
+				227C7E742AFB92EF00CC78E7 /* GameKit.framework */,
+				52FF15B02859909258A2DF88 /* Pods_picnicchef.framework */,
+				962799F3C341711AC1A9F5E2 /* Pods_picnicchefTests.framework */,
+				0E8EBD3CCB3EB5A7CB9ACAC4 /* Pods_picnicchefUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55FF1D1766871C63215A82D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F69297FBC2F9115ECBE480 /* Pods-picnicchef.debug.xcconfig */,
+				4FEBAC32337A185226CC72BE /* Pods-picnicchef.release.xcconfig */,
+				366783025CF3A2C958C59F03 /* Pods-picnicchef-picnicchefUITests.debug.xcconfig */,
+				3C9EB60EE23734566E43F3CF /* Pods-picnicchef-picnicchefUITests.release.xcconfig */,
+				EB6A220014B90E6F8BA0BF98 /* Pods-picnicchefTests.debug.xcconfig */,
+				6CAC696245360E178A6365E4 /* Pods-picnicchefTests.release.xcconfig */,
+				51D786B5419A65DD42CB42A5 /* Pods-picnicchefUITests.debug.xcconfig */,
+				44199D6BB9A60DCD20851417 /* Pods-picnicchefUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22500BE92AE7AE0400CE7F9E /* picnicchef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22500C152AE7AE0600CE7F9E /* Build configuration list for PBXNativeTarget "picnicchef" */;
+			buildPhases = (
+				3F5EE9420068C764DF078068 /* [CP] Check Pods Manifest.lock */,
+				22500BE62AE7AE0400CE7F9E /* Sources */,
+				22500BE72AE7AE0400CE7F9E /* Frameworks */,
+				22500BE82AE7AE0400CE7F9E /* Resources */,
+				8F876D30ADD243DD3D3C21A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picnicchef;
+			productName = picnicchef;
+			productReference = 22500BEA2AE7AE0400CE7F9E /* picnicchef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22500C002AE7AE0600CE7F9E /* picnicchefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22500C182AE7AE0600CE7F9E /* Build configuration list for PBXNativeTarget "picnicchefTests" */;
+			buildPhases = (
+				9E823EFF9CBD2FBE8B7B5A2E /* [CP] Check Pods Manifest.lock */,
+				22500BFD2AE7AE0600CE7F9E /* Sources */,
+				22500BFE2AE7AE0600CE7F9E /* Frameworks */,
+				22500BFF2AE7AE0600CE7F9E /* Resources */,
+				1BCC5DDB016353018C6DC91F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22500C032AE7AE0600CE7F9E /* PBXTargetDependency */,
+			);
+			name = picnicchefTests;
+			productName = picnicchefTests;
+			productReference = 22500C012AE7AE0600CE7F9E /* picnicchefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22500C0A2AE7AE0600CE7F9E /* picnicchefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22500C1B2AE7AE0600CE7F9E /* Build configuration list for PBXNativeTarget "picnicchefUITests" */;
+			buildPhases = (
+				E8B46AB031023E2E8B6CA455 /* [CP] Check Pods Manifest.lock */,
+				22500C072AE7AE0600CE7F9E /* Sources */,
+				22500C082AE7AE0600CE7F9E /* Frameworks */,
+				22500C092AE7AE0600CE7F9E /* Resources */,
+				960AB07CE292CC9FC6740F6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22500C0D2AE7AE0600CE7F9E /* PBXTargetDependency */,
+			);
+			name = picnicchefUITests;
+			productName = picnicchefUITests;
+			productReference = 22500C0B2AE7AE0600CE7F9E /* picnicchefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22500BE22AE7AE0400CE7F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					22500BE92AE7AE0400CE7F9E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					22500C002AE7AE0600CE7F9E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 22500BE92AE7AE0400CE7F9E;
+					};
+					22500C0A2AE7AE0600CE7F9E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 22500BE92AE7AE0400CE7F9E;
+					};
+				};
+			};
+			buildConfigurationList = 22500BE52AE7AE0400CE7F9E /* Build configuration list for PBXProject "picnicchef" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22500BE12AE7AE0400CE7F9E;
+			productRefGroup = 22500BEB2AE7AE0400CE7F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22500BE92AE7AE0400CE7F9E /* picnicchef */,
+				22500C002AE7AE0600CE7F9E /* picnicchefTests */,
+				22500C0A2AE7AE0600CE7F9E /* picnicchefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22500BE82AE7AE0400CE7F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22500BF52AE7AE0500CE7F9E /* Preview Assets.xcassets in Resources */,
+				22500BF22AE7AE0500CE7F9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22500BFF2AE7AE0600CE7F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22500C092AE7AE0600CE7F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCC5DDB016353018C6DC91F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-picnicchefTests/Pods-picnicchefTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-picnicchefTests/Pods-picnicchefTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-picnicchefTests/Pods-picnicchefTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5EE9420068C764DF078068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-picnicchef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F876D30ADD243DD3D3C21A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-picnicchef/Pods-picnicchef-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-picnicchef/Pods-picnicchef-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-picnicchef/Pods-picnicchef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960AB07CE292CC9FC6740F6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-picnicchefUITests/Pods-picnicchefUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-picnicchefUITests/Pods-picnicchefUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-picnicchefUITests/Pods-picnicchefUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E823EFF9CBD2FBE8B7B5A2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-picnicchefTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B46AB031023E2E8B6CA455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-picnicchefUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22500BE62AE7AE0400CE7F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22500BF72AE7AE0500CE7F9E /* Persistence.swift in Sources */,
+				22500BF02AE7AE0400CE7F9E /* ContentView.swift in Sources */,
+				22500BEE2AE7AE0400CE7F9E /* picnicchefApp.swift in Sources */,
+				22884FE52AF7687100545ACD /* AppDelegate.swift in Sources */,
+				22500BFA2AE7AE0500CE7F9E /* picnicchef.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22500BFD2AE7AE0600CE7F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22500C062AE7AE0600CE7F9E /* picnicchefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22500C072AE7AE0600CE7F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22500C122AE7AE0600CE7F9E /* picnicchefUITestsLaunchTests.swift in Sources */,
+				22500C102AE7AE0600CE7F9E /* picnicchefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22500C032AE7AE0600CE7F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22500BE92AE7AE0400CE7F9E /* picnicchef */;
+			targetProxy = 22500C022AE7AE0600CE7F9E /* PBXContainerItemProxy */;
+		};
+		22500C0D2AE7AE0600CE7F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22500BE92AE7AE0400CE7F9E /* picnicchef */;
+			targetProxy = 22500C0C2AE7AE0600CE7F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22500C132AE7AE0600CE7F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22500C142AE7AE0600CE7F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22500C162AE7AE0600CE7F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F69297FBC2F9115ECBE480 /* Pods-picnicchef.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = picnicchef/picnicchef.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"picnicchef/Preview Content\"";
+				DEVELOPMENT_TEAM = DM6F8G56P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = picnicchef/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picnicchef.do.picnicchef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22500C172AE7AE0600CE7F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEBAC32337A185226CC72BE /* Pods-picnicchef.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = picnicchef/picnicchef.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"picnicchef/Preview Content\"";
+				DEVELOPMENT_TEAM = DM6F8G56P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = picnicchef/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picnicchef.do.picnicchef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22500C192AE7AE0600CE7F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6A220014B90E6F8BA0BF98 /* Pods-picnicchefTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM6F8G56P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picnicchef.do.picnicchefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picnicchef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/picnicchef";
+			};
+			name = Debug;
+		};
+		22500C1A2AE7AE0600CE7F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAC696245360E178A6365E4 /* Pods-picnicchefTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM6F8G56P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picnicchef.do.picnicchefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picnicchef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/picnicchef";
+			};
+			name = Release;
+		};
+		22500C1C2AE7AE0600CE7F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D786B5419A65DD42CB42A5 /* Pods-picnicchefUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM6F8G56P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picnicchef.do.picnicchefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = picnicchef;
+			};
+			name = Debug;
+		};
+		22500C1D2AE7AE0600CE7F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44199D6BB9A60DCD20851417 /* Pods-picnicchefUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM6F8G56P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.picnicchef.do.picnicchefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = picnicchef;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22500BE52AE7AE0400CE7F9E /* Build configuration list for PBXProject "picnicchef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22500C132AE7AE0600CE7F9E /* Debug */,
+				22500C142AE7AE0600CE7F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22500C152AE7AE0600CE7F9E /* Build configuration list for PBXNativeTarget "picnicchef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22500C162AE7AE0600CE7F9E /* Debug */,
+				22500C172AE7AE0600CE7F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22500C182AE7AE0600CE7F9E /* Build configuration list for PBXNativeTarget "picnicchefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22500C192AE7AE0600CE7F9E /* Debug */,
+				22500C1A2AE7AE0600CE7F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22500C1B2AE7AE0600CE7F9E /* Build configuration list for PBXNativeTarget "picnicchefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22500C1C2AE7AE0600CE7F9E /* Debug */,
+				22500C1D2AE7AE0600CE7F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22500BF82AE7AE0500CE7F9E /* picnicchef.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22500BF92AE7AE0500CE7F9E /* picnicchef.xcdatamodel */,
+			);
+			currentVersion = 22500BF92AE7AE0500CE7F9E /* picnicchef.xcdatamodel */;
+			path = picnicchef.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22500BE22AE7AE0400CE7F9E /* Project object */;
+}

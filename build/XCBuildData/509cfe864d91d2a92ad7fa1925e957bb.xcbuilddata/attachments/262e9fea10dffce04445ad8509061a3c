@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_picnicchefVersionString[];
+ extern const double Pods_picnicchefVersionNumber;
+
+ const unsigned char Pods_picnicchefVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_picnicchef  PROJECT:Pods-1" "\n";
+ const double Pods_picnicchefVersionNumber __attribute__ ((used)) = (double)1.;
